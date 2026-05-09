@@ -1,0 +1,133 @@
+.content {
+  margin: auto;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fbffe3c2;
+  border-radius: 10px;
+  margin-top: 8%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.content.dashboard {
+  margin-top: 15%;
+}
+
+/* Style for form elements */
+// form {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   margin: 0 auto;
+//   max-width: 400px;
+//   background: #dddddde3;
+//   padding: 50px;
+//   border-radius: 30px;
+//   border: 1px solid #bbb;
+// }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 400px;
+  background: #dddddde3;
+  padding: 50px;
+  border-radius: 30px;
+  border: 1px solid #bbb;
+}
+
+.input,
+.textarea,
+.select {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.textarea {
+  height: 100px;
+}
+
+/* Style for submit button */
+.button[type="submit"],
+.input[type="submit"] {
+  background-color: #df8100;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button[type="submit"]:hover,
+.input[type="submit"]:hover {
+  background-color: #006db3;
+}
+
+/* Style for error message */
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+/* Style for success message */
+.success {
+  color: green;
+  margin-top: 5px;
+}
+
+/* Set font family */
+.LoginPage {
+  font-family: Arial, sans-serif;
+  //background-image: url("../../../public/background.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* Set font size */
+.h1 {
+  font-size: 2.5rem;
+}
+
+/* Set font weight */
+.h2 {
+  font-weight: bold;
+}
+
+/* Set font style */
+.p {
+  font-style: italic;
+}
+
+/* Set font color */
+.a {
+  color: blue;
+}
+
+/* Set text alignment */
+.text-center {
+  text-align: center;
+}
+
+.h1,
+.p {
+  text-align: center;
+}
